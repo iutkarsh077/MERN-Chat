@@ -3,8 +3,4 @@
     "name": "native-server",
     "builds": [{ "src": "index.js", "use": "@vercel/node" }],
     "routes": [{ "src": "/(.*)", "dest": "/index.js" }]
-<<<<<<< HEAD
   }
-=======
-  }
->>>>>>> 2c53221fccd38a70b0d4df7b2880f6d01627ebcf
