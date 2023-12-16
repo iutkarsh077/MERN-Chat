@@ -1,0 +1,14 @@
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* For Firefox */
+  .scrollbar-hide {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  /* For Edge */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+  }
