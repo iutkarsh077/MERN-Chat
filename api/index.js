@@ -14,7 +14,7 @@ const port = process.env.PORT || 8000;
 app.use(
   cors({
     credentials: true,
-    origin: process.env.CLIENT_ADDRESS || 'https://mern-chat-frontend-seven.vercel.app/',
+    origin: process.env.CLIENT_ADDRESS || 'https://mern-chat-frontend-seven.vercel.app',
   })
 );
 app.use(express.json());
