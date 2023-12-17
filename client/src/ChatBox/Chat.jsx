@@ -80,7 +80,7 @@ const Chat = () => {
 
   useEffect(() => {
     if (selectedUserId) {
-      axios.get("user/messages/" + selectedUserId).then((res) => {
+      axios.get("/user/messages/" + selectedUserId).then((res) => {
         setUserMessage(res.data);
       });
     }
