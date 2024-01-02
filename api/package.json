@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "develop": "concurrently \"cd api && npm run watch\" \"cd client && npm run dev\"",
+    "install": "cd api && npm i && cd ../client && npm i --production=false",
+    "start": "node index.js",
+    "build": "cd client && npm run build",
+    "render-build":"npm install && npm run build"
   },
   "keywords": [],
   "author": "",
