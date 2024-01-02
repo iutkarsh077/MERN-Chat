@@ -5,10 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "install": "npm i && cd ../client && npm i --production=false",
-    "start": "node index.js",
-    "build": "cd client && npm run build",
-    "render-build":"npm install && npm run build"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
