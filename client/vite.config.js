@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server: {
     proxy :{
-      '/user': 'https://mern-chat-backend-vert.vercel.app'
+      '/user': 'https://mern-chat-ha3v.onrender.com'
     }
   },
   plugins: [react()],
