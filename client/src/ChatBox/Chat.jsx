@@ -18,7 +18,7 @@ const Chat = () => {
   }, []);
 
   function connectToWs() {
-    const ws = new WebSocket("ws://mern-chat-backend-vert.vercel.app");
+    const ws = new WebSocket("wss://mern-chat-backend-vert.vercel.app");
     setWs(ws);
     ws.addEventListener("message", handleMessage);
     ws.addEventListener("close", () => {
